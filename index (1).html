@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Join My Roblox Server!</title>
+  <meta name="description" content="Join my private Roblox server — click the button to open the invite." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='16' fill='%2300b06b'/><text x='50' y='57' font-size='46' text-anchor='middle' fill='white' font-family='Arial,sans-serif'>R</text></svg>">
+</head>
+<body>
+  <main class="page">
+    <header class="site-header" role="banner">
+      <h1>🎮 Join My Roblox Private Server</h1>
+      <p class="lead">Click the button below to join — the server invite will open in a new tab.</p>
+    </header>
+
+    <section class="actions" role="region" aria-label="Join server">
+      <a id="joinBtn"
+         class="btn primary"
+         href="https://www.roblox.com/share?code=2a9305c796b89c41aa001a913971bba2&type=Server"
+         target="_blank"
+         rel="noopener noreferrer"
+         aria-label="Open Roblox invite in a new tab">
+        Join Server
+      </a>
+      <button id="copyBtn" class="btn secondary" type="button" aria-label="Copy invite link">
+        Copy Link
+      </button>
+    </section>
+
+    <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+
+    <footer class="site-footer">
+      <small>Hosted by you — deploy this page with GitHub Pages or any static host.</small>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
