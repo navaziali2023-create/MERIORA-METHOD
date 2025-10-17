@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Join My Roblox Server</title>
+</head>
+<body>
+    <h1>Welcome to My Roblox Game!</h1>
+    <p>Click the button below to join my private Roblox server:</p>
+    <a href="https://www.roblox.com/games/1234567890/Game-Name?privateServerLinkCode=abcdefg" target="_blank">
+        <button style="padding: 10px 20px; font-size: 18px;">Join Server</button>
+    </a>
+</body>
+</html>
